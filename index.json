@@ -1,43 +1,49 @@
-
 {
-  "api": {
-    "services": [
-      {
-    "org_name": "Electro",
-    "id": 1,
-    "address1": "http://127.0.0.1:8000/location/level1/1/",
-    "address2": null,
-    "address3": null,
-    "address4": null,
-    "house_number": null,
-    "postalcode": "3233",
-    "phone_number": "01818898982",
-    "bio": "Good electrician"
-  },
-  {
-    "org_name": "Plumber",
-    "id": 2,
-    "address1": "http://127.0.0.1:8000/location/level1/1/",
-    "address2": null,
-    "address3": null,
-    "address4": null,
-    "house_number": null,
-    "postalcode": "3233",
-    "phone_number": "01818898982",
-    "bio": "Good electrician"
-  },
-  {
-    "org_name": "Photographer",
-    "id": 3,
-    "address1": "http://127.0.0.1:8000/location/level1/1/",
-    "address2": null,
-    "address3": null,
-    "address4": null,
-    "house_number": null,
-    "postalcode": "3233",
-    "phone_number": "01818898982",
-    "bio": "Good electrician"
-  }
-    ]
-  }
+	"api": {
+		"services": [
+			{
+				"org_name": "Electro",
+				"id": 1,
+				"address1": "http://127.0.0.1:8000/location/level1/1/",
+				"address2": null,
+				"address3": null,
+				"address4": null,
+				"house_number": null,
+				"postalcode": "3233",
+				"phone_number": "01818898982",
+				"bio": "Good electrician"
+			},
+			{
+				"org_name": "Plumber",
+				"id": 2,
+				"address1": "http://127.0.0.1:8000/location/level1/1/",
+				"address2": null,
+				"address3": null,
+				"address4": null,
+				"house_number": null,
+				"postalcode": "3233",
+				"phone_number": "01818898982",
+				"bio": "Good electrician"
+			},
+			{
+				"org_name": "Photographer",
+				"id": 3,
+				"address1": "http://127.0.0.1:8000/location/level1/1/",
+				"address2": null,
+				"address3": null,
+				"address4": null,
+				"house_number": null,
+				"postalcode": "3233",
+				"phone_number": "01818898982",
+				"bio": "Good electrician"
+			}
+		],
+		"field-of-work" : [
+			{
+				"id": 1,
+				"speciality" : "electiritian",
+				"hourly-price": "123"
+			}
+		]
+	}
 }
